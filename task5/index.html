@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Reg</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form  id="formReg" action="home.html">
+      <h1>Registration</h1>
+
+      <hr color="#09c" />
+
+      <label for="user-name"> Name* </label>
+      <br />
+
+      <input name="userName" id="user-name" type="user-name" placeholder="Enter Your Name " />
+
+      <br />
+      <br />
+
+      <label for="user-age">Age* </label>
+
+      <input
+        name="userAge"
+        id="user-age"
+        type="number"
+        placeholder="Enter Your Age "
+        min="10" />
+
+      <br />
+      <br />
+
+      <label>Gender*</label>
+      <br />
+      <span style="margin-right: 150px">
+        <label for="male">
+          <img src="images/male.PNG" alt="image of male " />
+        </label>
+        <input
+          class="styleRadio"
+          id="male"
+          type="radio"
+          value="male"
+          name="gender" />
+      </span>
+
+      <span>
+        <label for="female">
+          <img src="images/female.PNG" alt="image of female " />
+        </label>
+        <input
+          class="styleRadio"
+          id="female"
+          type="radio"
+          value="female"
+          name="gender" />
+      </span>
+      <br />
+      <br />
+
+      <label for="user-fav-color">Favorite Color :</label>
+      <select name="favColor" id="user-fav-color">
+        <option disabled  selected>Chose Your Favorite Color</option>
+        <option value="red">red</option>
+        <option value="red">black</option>
+        <option value="red">white</option>
+        <option value="red">orange</option>
+      </select>
+      <br>
+      <button id="btnReg" onclick="location.href ='home.html'" >Register</button>
+    </form>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+#continerSlider{
+  width: 600px;
+  padding: 10px;
+  background-color: rgba(0, 153, 204, 0.219);
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 11px;
+  
+}
+.container-img{
+  margin: auto;
+  width: 50%;
+  
+}
+
+img{
+border-radius: 11px;
+  width: 300px;
+  height: 300px;
+}
+
+.container-btns{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn{
+  color: rgba(255, 77, 71, 0.966);
+  background-color: rgba(0, 153, 204, 0.377);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.btn:hover{
+    background-color: rgba(0, 153, 204, 0.966);
+}

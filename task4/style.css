@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+.container-watch {
+  background-color: rgb(9, 32, 50);
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 7%;
+  text-align: center;
+  border-radius: 11px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.watch {
+  background-color: #344756;
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 2%;
+  text-align: center;
+  border-radius: 11px;
+}
+
+.watch p {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 11px;
+  background-color: tomato;
+  color: rgb(9, 32, 50);
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
